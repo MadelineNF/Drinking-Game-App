@@ -1,4 +1,4 @@
-\connect drinkinggames_development
+-- \connect drinkinggames_development
 
 CREATE TABLE IF NOT EXISTS types (
   id BIGSERIAL PRIMARY KEY,
