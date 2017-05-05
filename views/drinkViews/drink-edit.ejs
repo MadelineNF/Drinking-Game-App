@@ -1,0 +1,8 @@
+<% include ../partials/boilerplate %>
+<form method='POST' action='/drinks/<%= id %>?_method=PUT'>
+  <input name='name' type='text' value='<%= drinks.name %>' />
+  <input name='rules' type='text' value='<%= drinks.rules %>' />
+  <input name='type_id' type='number' value='<%= drinks.type_id %>' />
+  <input type='submit' value='Save' />
+</form>
+<% include ../partials/end %>

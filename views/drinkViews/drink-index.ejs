@@ -1,0 +1,20 @@
+<% include ../partials/boilerplate %>
+<a href='/drinks/add'>Add a game!</a>
+
+<div class='games'>
+  <% drinksData.forEach(function(drink) { %>
+    <div class='my-game'>
+      <h3><%= drink.name %></h3>
+      <div class='meta'>
+        <!--<span class='rules'><a href="<%= drink.rules %>">Rules</a></span>-->
+        <span class='type'><%= drink.type_id %></span>
+      </div>
+      <a href='/drinks/<%= drink.id %>'>Go to page</a>
+      <a href='/drinks/edit/<%= drink.id %>'>Edit game</a>
+      <form method='POST' action='/drinks/<%= drink.id %>?_method=DELETE'>
+        <input type='submit' value='Delete' />
+      </form>
+    </div>
+  <% }) %>
+</div>
+<% include ../partials/end %>

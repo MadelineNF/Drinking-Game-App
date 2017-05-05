@@ -1,0 +1,17 @@
+<% include ./partials/boilerplate %>
+<div class="overlay">
+<div class='hero'>
+  <h1><%= message %></h1>
+  <h3><%= subTitle %></h3>
+</div>
+
+<% if (showMore === true) { %>
+<div class='more'>
+<p>Enjoy your stay!</p>
+</div>
+<% } %>
+
+<a class = 'button' href='/drinks'>See all games</a>
+<a class = 'button' href='/drinks/add'>Add a game</a>
+</div>
+<% include ./partials/end %>

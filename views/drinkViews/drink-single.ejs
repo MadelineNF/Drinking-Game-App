@@ -1,0 +1,12 @@
+<% include ../partials/boilerplate %>
+<div class='single-game'>
+    <h3><%= drink.name %></h3>
+    <div class='meta'>
+      <span class='rules'><a href = '<%= drink.rules %>'>Rules</a></span>
+      <span class='type'><%= drink.type_id %></span>
+    </div>
+  </div>
+
+  <a href='/drinks'>Return to games index</a>
+
+<% include ../partials/end %>

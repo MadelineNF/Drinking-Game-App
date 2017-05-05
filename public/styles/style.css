@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background: url(http://i.imgur.com/SN4oTY7.jpg) center;
+}
+.overlay{
+  background: rgba(0,0,0,0.5);
+  height: 100vh;
+}
+.hero{
+  background:rgba(255,255,255,0.4);
+  margin:40px;
+  padding:20px;
+  text-align: center;
+}
+.more{
+  background:rgba(255,255,255,0.4);
+  margin:40px;
+  padding:20px;
+  text-align: center;
+}
+.button{
+  background:rgba(164,147,124,0.8);
+  text-decoration:none;
+  color:black;
+  padding: 20px;
+  clear: left;
+  float: left;
+  width: 100px;
+  margin: 5px;
+  margin-left: 42%;
+  text-align:center;
+  font-weight: bold;
+}
+.my-game{
+  background: rgba(255,255,255,0.4);
+  margin:40px;
+  padding:20px;
+  text-align: center;
+  display: flex;
+}
+
+

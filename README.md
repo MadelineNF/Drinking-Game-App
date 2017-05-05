@@ -27,7 +27,7 @@ Here are the screencaps for my wireframes. I have also included a link to the go
 This app allows you to upload new drinking games to the database, edit said games, and delete them. You can view individual games as well as a list of all games.
 
 #### Post-MVP
-I plan on eventually integrating a sort feature that allows you to view only games of a certain type. I also plan on remaking each game in JS and linking to them on each games page.
+I plan on eventually integrating a sort feature that allows you to view only games of a certain type. I also plan on remaking each game in JS and linking to them on each games page. I also plan on implementing a random game feature that will take you to a random drinking game when clicked.
 
 ### Potential Problems
 In previous work I have had trouble with getting the views to render, while I do not expect to run in to this issue, this project gives me an opportunity to overcome it.
